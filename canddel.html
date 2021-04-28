@@ -1,0 +1,83 @@
+<html>
+<head>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" nonce="E63E68ED49EEC14B95F36C4BE418D958" charset="UTF-8"></script>
+<style>
+body{
+     background-color:white;
+background-image: url("vote1.jpg");
+}
+p{ 
+    font-size:30px;
+    font-family: "Courier New Header";
+    color: black;
+}
+.box
+{
+width:400px;
+padding:60px;
+position:absolute;
+top:50%;
+left:50%;background:#191919;
+transform:translate(-50%,-50%);
+
+text-align:center;///
+}
+.box h1
+{
+color:white; text-transform:uppercase;
+font-weight:500;
+}
+h1
+{font-size:60px;
+color: red;
+font-family: "Times Header";
+}
+
+.box input[type="text"]
+{
+border:0;
+background:none;
+display:block;
+margin:10px auto;
+
+border:2px solid #3498db;
+padding:14px 10px;
+width:200px;
+outline:none;
+color:white;
+border-radius:24px;
+transition:0.25s;
+}
+.box input[type="submit"]
+{
+border:0;
+background:none;
+display:block;
+margin:20px auto;
+border:2px solid #2ecc71;
+padding:14px 40px;
+width:200px;
+outline:none;
+color:black;
+border-radius:24px;
+transition:0.25s;
+cursor:pointer;
+}
+.box input[type="submit"]:hover
+{
+background:#2ecc71;
+}
+</style>
+</head>
+<body>
+<h1><center><mark>Enter Candidateid to delete</mark></center></h1>
+
+<form class="box" action="canddelphp.php" method="post">
+<p>
+<center>Candidate ID:<input type="text" name="candidateid"></center>
+<br>
+<input type="submit" value="REMOVE">
+</p>
+</form>
+</body>
+</html>
