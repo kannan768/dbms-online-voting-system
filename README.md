@@ -1,5 +1,6 @@
 # dbms-online-voting-system
 FUNCTIONS:
+
 VOTER:
     In the voter function the user is logged in by using the voterID and password. If the password for the user is correct then he is allowed to vote otherwise he is not. By using session the previously given voterID in the login is obtained and the voter is allowed to caste his/her vote. He/she need to give the symbolID that they need to vote and the vote is added, repeated voters can’t vote.
 
@@ -9,8 +10,7 @@ ELECTION COMMISSION:
          Voter module, Candidate module , Vote Status.
          
 Voter module:
-
-     In this module the election commission allows to add a voter , display the voter details , update a voter using triggers, if a voter is updated then the old voter information is stored in the voter history table and we can display it.
+In this module the election commission allows to add a voter , display the voter details , update a voter using triggers, if a voter is updated then the old voter information is stored in the voter history table and we can display it.
      
      
 Candidate module:
